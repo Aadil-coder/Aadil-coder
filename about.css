@@ -1,0 +1,74 @@
+*{
+text-align: center;
+justify-content: center;
+padding: 0%;
+margin: 0%;
+}
+.title {
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    margin: 7px;
+    border-radius: 23px;
+    
+  }
+
+.about-one {
+    background-color: #ff9933;
+    color: rgb(13, 14, 14);
+    padding: 30px;
+    height: 60px;
+    color: black;
+    margin: 13px;
+  }
+  .about-two {
+    background-color: rgb(252, 241, 241);
+    color: rgb(13, 14, 14);
+    padding: 30px;
+    border-radius: 3px;
+    height: 60px;
+    margin: 13px;
+  }
+  .about-three {
+    background-color: green;
+    color: rgb(13, 14, 14);
+    padding: 30px;
+    border-radius: 3px;
+    height: 60px;
+    margin: 13px;
+  }
+
+  .navigation-button{
+    text-align: center;
+    float: inline-start;
+    color: rgb(242, 242, 248) ;
+    border-radius: 13px;
+    font-size: 2rem;
+    border: 3px;
+    margin: 13px 25px 25px;
+    padding: 10[x;]
+  }
+  .navigation-button :hover{
+    transition: 2s rgb(59, 8, 243) ease-in;
+    border: 1px solid rgb(10, 0, 0);
+    color: rgb(248, 7, 7);
+    background-color: rgb(1, 1, 19);
+    font-size: 1.5rem;
+    border-radius: 25px;
+    padding: 3px;
+  }
+
+  .end-of--page{
+    text-align: center;
+    float: inline-start;
+    color: rgb(1, 1, 20) ;
+    background-color: rgb(245, 244, 244);
+    border-radius: 13px;
+  }
+  .end-of--page :hover{
+    transition: 3s red ;
+    border: 1px solid yellow;
+    color: rgb(17, 1, 1);
+    background-color: aliceblue;
+    font-size: 2rem;
+  }

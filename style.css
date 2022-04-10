@@ -1,0 +1,223 @@
+* {
+  text-align: center;
+  justify-content: center;
+  display: inline-flexbox;
+  padding: 7px;
+  margin: 0px;
+  text-transform: capitalize;
+}
+.title {
+  background-color: black;
+  color: aliceblue;
+  padding: 9px;
+  margin: 10px;
+  border-radius: 25px;
+}
+.summary-one {
+  text-align: center;
+  background-color: yellow;
+  color: rgb(15, 15, 15);
+  font-size: large;
+  padding: 10px 25px 13px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.images-one {
+  display: inline-flex;
+  max-width: fit-content;
+  justify-content: center;
+  grid-row-start: auto;
+  border-image-repeat: repeat;
+  padding: 13px;
+  margin: 10px 25px 12px 10px;
+  border-radius: 10px;
+  box-shadow: 10px;
+  background-color: beige;
+  border: 1px solid rgb(138, 138, 17);
+}
+.images-one :hover {
+  transition: 3s rgb(7, 245, 26);
+  border: 1px solid black;
+  color: #ff9933;
+  font-size: 1rem;
+  background-color: blue;
+}
+img {
+  border-radius: 30px;
+  border: 0.5px solid rgb(24, 3, 3);
+  padding: 10px;
+  margin-right: 7px;
+  background-color: #fcfcf5;
+}
+video {
+  border-radius: 30px;
+  border: 1px solid rgb(24, 3, 3);
+  padding: 10px;
+  margin-right: 7px;
+  background-color: #fcfcf5;
+}
+video:hover {
+  background-color: blue;
+  border: 1px solid rgb(248, 63, 6);
+  box-shadow: #ff9933;
+}
+.video-background {
+  border: 0.5px solid red;
+  border-radius: 25px;
+}
+.summary-two {
+  background-color: rgb(17, 17, 17);
+  padding: 25px;
+  margin: 10px;
+  box-shadow: inset;
+}
+.p-one {
+  background-color: #ff9933;
+  color: rgb(13, 14, 14);
+  padding: 30px;
+  height: 60px;
+}
+.p-two {
+  background-color: white;
+  color: rgb(13, 14, 14);
+  padding: 30px;
+  border-radius: 3px;
+  height: 60px;
+}
+.p-three {
+  background-color: green;
+  color: rgb(13, 14, 14);
+  padding: 30px;
+  border-radius: 3px;
+  margin-top: 0px;
+  height: 60px;
+}
+.social {
+  justify-content: center;
+  display: inline-flex;
+  list-style: none;
+}
+.semi-end {
+  list-style: none;
+  display: block;
+  background-color: none;
+  border: 1px solid green;
+  font-size: 2rem;
+  border-radius: 13px;
+  padding: 10px;
+  margin: 17px;
+}
+.submit {
+  padding: 7px 7px 10px;
+  color: rgb(247, 242, 242);
+  background-color: rgb(9, 214, 214);
+  box-shadow: 25px;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+.submit :hover {
+  transition: 3s red;
+  border: 2px solid black;
+  color: rgb(95, 11, 252);
+  background-color: aliceblue;
+  font-size: 2rem;
+  border-radius: 20px;
+  padding: 13px;
+}
+.end-of--page {
+  text-align: center;
+  float: inline-start;
+  color: blue;
+  background-color: black;
+  border-radius: 13px;
+}
+.end-of--page :hover {
+  transition: 3s red;
+  border: 1px solid yellow;
+  color: rgb(15, 1, 1);
+  background-color: aliceblue;
+  font-size: 2rem;
+}
+.social {
+  text-align: center;
+
+  background-color: wheat;
+  border-radius: 25px;
+  margin: 7px 7px 10px;
+}
+.social :hover {
+  transition: 2s red ease-in;
+  border: 2px solid rgb(2, 250, 85);
+  color: navy;
+  background-color: black;
+  font-size: 2rem;
+  border-radius: 25px;
+}
+
+.about {
+  text-align: center;
+  float: inline-start;
+  color: blue;
+  border-radius: 13px;
+  font-size: 3rem;
+  border: 3px;
+}
+.about :hover {
+  transition: 2s red ease-in;
+  border: 2px solid rgb(2, 250, 85);
+  color: rgb(15, 15, 15);
+  background-color: rgb(248, 8, 8);
+  font-size: 2rem;
+  border-radius: 25px;
+}
+
+.navigation-button {
+  text-align: center;
+  float: inline-start;
+  color: blue;
+  border-radius: 13px;
+  font-size: 3rem;
+  border: 3px;
+  margin-bottom: 13px;
+}
+.navigation-button :hover {
+  transition: 2s red ease-in;
+  border: 2px solid rgb(2, 250, 85);
+  color: rgb(15, 15, 15);
+  background-color: rgb(248, 8, 8);
+  font-size: 2rem;
+  border-radius: 25px;
+}
+
+.thankyou{
+  background-color: #080808;
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+  padding: 50px;
+  margin: 25px;
+  color: red;
+  border-radius: 13px;
+}
+.thankyou :hover {
+  transition: 2s red ease-in;
+  border: 2px solid rgb(2, 250, 85);
+  color: rgb(15, 15, 15);
+  background-color: rgb(248, 8, 8);
+  font-size: 4rem;
+  border-radius: 10px ;
+}
+.thankyou-p{
+  text-align: left;
+  background-color: wheat;
+  font-size: 1rem;
+  color: rgb(0, 12, 12);
+}
+
+.thankyou-p :hover {
+  transition: 3s red;
+  border: 1px solid yellow;
+  color: rgb(15, 1, 1);
+  background-color: aliceblue;
+  font-size: 2rem;
+}
